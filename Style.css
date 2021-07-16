@@ -1,0 +1,223 @@
+rectangle{
+/* Rectangle 4606 */
+
+
+position: absolute;
+width: 1550px;
+height: 500px;
+left: 0px;
+top: 0px;
+
+background: #2D25A0;
+}
+
+/* 1648334-world-cup-football-player-kick-off-football-kick-football-png-980_772_preview 1 */
+
+.side-img{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 900px;
+    top: 100px;
+ background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdls5li75TR7u6hy-xjfQm8UybNVxyaGVG4Q&usqp=CAU);
+ 
+ transform: matrix(-1, 0, 0, 1, 0, 0);
+    
+   }
+   .side-img:hover {
+      padding-top: 50px;
+      padding-bottom: 50px;`1
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .Banner:hover {
+      transform: scale(1.2);
+      padding-bottom: 13px;
+      padding-left: 50px;
+      
+  }
+  h1:hover{
+   transform: scale(1.2);
+   padding-bottom: 13px;
+   padding-left: 50px;
+  }
+  
+  button:hover {
+      margin-left: 110px;
+  }
+  nav:hover{
+   transform: scale(1.2);
+  }
+  
+
+
+/* Conmebol Copa America 2021 */
+
+h1{
+position: absolute;
+width: 485px;
+height: 230px;
+left: 156px;
+top: 100px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 80px;
+/* or 125% */
+
+color: #FFFFFF;
+}
+
+
+/* Frame 75 */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    align-items: center;
+}
+
+nav a {
+    position:relative;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    margin-right: 15px;
+    width: 1160px;
+    height: 44px;
+    left: 156px;
+    top: 45px;
+}
+
+   /*button*/
+   button{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 24px;
+font-size: 1.20em;
+color:#FFFFFF;
+
+position: absolute;
+width: 168px;
+height: 44px;
+left: 156px;
+top: 420px;
+
+background: #E02C6D;
+
+   }
+   .button{
+    
+    position:absolute;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1em;
+    margin-left: 15px;
+    width: 168px;
+    height: 44px;
+    left: 166px;
+    top: 2px;
+    background: #E02C6D;
+   }
+  /* footer*/
+    footer {
+   display:grid;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 200px;
+height: 100px;
+left: 500px;
+top: 3440px;
+ 
+   }
+
+  
+   
+
+.Players{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-row-gap: 20px;
+   grid-column-gap: 20px;
+   padding-top:10px;
+}
+.player-list div h2:hover{
+   transform: scale(1.2);
+}
+
+.player-list .player-1{
+   justify-self: end;
+   margin-right: 18px;
+}
+.player-list .player-2 {
+   justify-self: center;
+}
+
+.player-list div{
+   width: 495px;
+   background-color: #fff;
+}
+.player-list .player{
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-list div .player-1-info{
+   height: 388.266px;
+   width: 465px;
+   overflow: hidden;
+   margin: 15px;
+}
+.player-list div img{
+   width: 100%;
+   transition: transform 1s ease-in;
+   cursor: pointer;
+}
+.player-list div h2{
+   font-size: 38px;
+   font-weight: 700;
+   padding: 15px;
+   padding-top: 0;
+   padding-bottom: 15px;
+   margin-top: 0;
+   margin-bottom: 0;
+   cursor: pointer;
+   transition: color 1s ease-in;
+}
+.player-list div p{
+   font-size: 16px;
+   font-weight: 400;
+   padding: 15px;
+   padding-top: 0;
+   padding-bottom: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   text-align: justify;
+}
+
+
+
+
+h2:hover{
+   color: #3e4fe4;
+}
+.bottombanner:hover{
+
+   transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
